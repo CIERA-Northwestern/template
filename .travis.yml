@@ -1,0 +1,42 @@
+language: python
+
+dist: xenial
+
+os:
+  - linux
+
+# If you need gcc or other non python packages and libraries
+#addons:
+#  apt_packages:
+#    - gfortran
+#    - swig
+#    - libhdf5-serial-dev
+
+python:
+  - '3.5'
+  - '3.6'
+  - '3.7'
+
+before_install:
+  - pip install pip setuptools --upgrade
+
+install:
+  - python -m pip install .
+
+before_script:
+  - python -m pip install coverage cpp-coveralls "pytest>=3.1" pytest-runner sphinx numpydoc sphinx-bootstrap-theme sphinxcontrib-programoutput sphinx_rtd_theme unittest2 ipython
+
+script:
+  # run unit tests
+  - coverage run ./setup.py test
+
+  # build documentation
+  - cd docs && make html; cd ../
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
+  - coveralls
+
+cache:
+  pip: true
+  apt: true
