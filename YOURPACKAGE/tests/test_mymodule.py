@@ -19,8 +19,8 @@
 """Unit test for YOURPACKAGE.YOURMODULE classes
 """
 
-from YOURPACKAGE.mymodule import MyModule
+from YOURPACKAGE.mymodule.mymodule import MyModule
 
 class TestMyModule(object):
-    def test_mymodule(self):
-        assert 1 == MyModule.return_one()
+    def test_myclass(self):
+        assert 1 == MyModule().return_one()
