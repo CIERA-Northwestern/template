@@ -6,6 +6,9 @@ This repository stands to house a skeleton of what all repos (especially those c
 
 [![Coverage Status](https://coveralls.io/repos/github/CIERA-Northwestern/template/badge.svg?branch=master)](https://coveralls.io/github/CIERA-Northwestern/template?branch=master)
 
+[![codecov](https://codecov.io/gh/CIERA-Northwestern/template/branch/master/graph/badge.svg)](https://codecov.io/gh/CIERA-Northwestern/template)
+
+
 # Examples of some repositories with these files
 
 https://github.com/Gravity-Spy/GravitySpy
