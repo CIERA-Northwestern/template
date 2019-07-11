@@ -87,6 +87,7 @@ tests_require = [
 # For documenation
 extras_require = {
     'doc': [
+        'matplotlib',
         'ipython',
         'sphinx',
         'numpydoc',

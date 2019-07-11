@@ -21,7 +21,7 @@ before_install:
   - pip install pip setuptools --upgrade
 
 install:
-  - python -m pip install .
+  - python -m pip install .[doc]
 
 before_script:
   - python -m pip install coverage cpp-coveralls "pytest>=3.1" pytest-runner sphinx numpydoc sphinx-bootstrap-theme sphinxcontrib-programoutput sphinx_rtd_theme unittest2 ipython
