@@ -23,6 +23,8 @@
 Place package import here
 """
 
+import numpy
+
 __author__ = 'YOUR NAME <YOUR EMAIL@gmail.com>'
 __credits__ = 'Scott Coughlin <scottcoughlin2014@u.northwestern.edu>'
 __all__ = ['MyModule']

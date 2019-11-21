@@ -71,7 +71,8 @@ setup_requires = [
 # are all used in the example below for specifying specific version of the
 # packages that are compatbile with your software.
 install_requires = [
-    #'numpy >= 1.16',
+    'numpy >= 1.16',
+    #'pyblast @ https://github.com/CIERA-Northwestern/pyblast/tarball/master',
     #'scipy >= 0.12.1',
     #'matplotlib >= 1.2.0, != 2.1.0, != 2.1.1',
     #'astropy >= 1.1.1, < 3.0.0 ; python_version < \'3\'',
@@ -94,6 +95,7 @@ extras_require = {
         'sphinx_rtd_theme',
         'sphinxcontrib_programoutput',
     ],
+    'ml': ['theano'],
 }
 
 # ONLY IF WRAPPING C C++ OR FORTRAN
