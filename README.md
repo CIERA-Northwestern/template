@@ -2,7 +2,7 @@
 This repository stands to house a skeleton of what all repos (especially those containing python code), can look like.
 
 # badges
-[![Build Status](https://travis-ci.org/CIERA-Northwestern/template.svg?branch=master)](https://travis-ci.org/CIERA-Northwestern/template)
+[![Build Status](https://travis-ci.com/CIERA-Northwestern/template.svg?branch=master)](https://travis-ci.com/CIERA-Northwestern/template)
 
 [![Coverage Status](https://coveralls.io/repos/github/CIERA-Northwestern/template/badge.svg?branch=master)](https://coveralls.io/github/CIERA-Northwestern/template?branch=master)
 
@@ -40,7 +40,7 @@ git push
 ## Activating the Continous Integration
 In order for the code coverage and continuous integration to work you must allow 3rd party access Travis CI and coveralls/codecov to access your Github repo. To do this, you must sign into the services (you can justuse your GitHub account to do so).
 
-[Travis CI](https://travis-ci.org/)
+[Travis CI](https://travis-ci.com/)
 [Code coverage](https://codecov.io/)
 [Coveralls](https://coveralls.io/repos)
 
