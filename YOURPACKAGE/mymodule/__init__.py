@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (C) YOUR NAME (2019)
+# Copyright (C) YOUR NAME (2021)
 #
 # This file is part of YOURPACKAGE
 #

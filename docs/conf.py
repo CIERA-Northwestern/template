@@ -85,8 +85,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'YOURPACKAGE'
-copyright = u'2017, Katie Breivik'
-author = u'Katie Breivik'
+copyright = u'2021, YOUR NAME'
+author = u'YOUR NAME'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -264,7 +264,7 @@ latex_elements = {
 # author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'YOURPACKAGE.tex', u'YOURPACKAGE Documentation',
-     u'Katie Breivik', 'manual'),
+     u'YOUR NAME', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -329,8 +329,4 @@ texinfo_documents = [
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
     'python': ('https://docs.python.org/', None),
-    'numpy': ('https://docs.scipy.org/doc/numpy/', None),
-    'scipy': ('https://docs.scipy.org/doc/scipy/reference/', None),
-    'matplotlib': ('http://matplotlib.org/', None),
-    'astropy': ('http://docs.astropy.org/en/stable/', None),
 }

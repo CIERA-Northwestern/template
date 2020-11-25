@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (C) Katie Breivik (2017)
+# Copyright (C) YOUR NAME (2021)
 #
 # This file is part of YOURPACKAGE
 #
@@ -17,11 +17,11 @@
 # You should have received a copy of the GNU General Public License
 # along with YOURPACKAGE.  If not, see <http://www.gnu.org/licenses/>
 
-"""COSMIC (Compact Object Synthesis and Monte Carlo Investigation Code)
+"""YOURPACKAGE
 """
 
 from ._version import get_versions
 __version__ = get_versions()['version']
-__author__ = 'YOUR NAME <YOUR EMAIL>'
+__author__ = 'YOUR NAME <YOUREMAIL>'
 __credits__ = ['Scott Coughlin <scottcoughlin2014@u.northwestern.edu>']
 del get_versions

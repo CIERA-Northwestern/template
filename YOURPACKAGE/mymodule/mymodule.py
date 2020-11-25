@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Copyright (C) YOUR NAME (2019)
+# Copyright (C) YOUR NAME (2021)
 #
 # This file is part of YOURPACKAGE.
 #
@@ -16,16 +16,13 @@
 # You should have received a copy of the GNU General Public License
 # along with YOURPACKAGE.  If not, see <http://www.gnu.org/licenses/>.
 
-"""`evolve`
-"""
-
 """
 Place package import here
 """
 
 import numpy
 
-__author__ = 'YOUR NAME <YOUR EMAIL@gmail.com>'
+__author__ = 'YOUR NAME <YOUREMAIL@gmail.com>'
 __credits__ = 'Scott Coughlin <scottcoughlin2014@u.northwestern.edu>'
 __all__ = ['MyModule']
 

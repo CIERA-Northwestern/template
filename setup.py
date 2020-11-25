@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Copyright (C) YOURNAME (2019)
+# Copyright (C) YOUR NAME (2021)
 #
 # This file is part of the YOURPACKAGE python package.
 #
@@ -113,7 +113,7 @@ scripts = glob.glob(os.path.join('bin', '*'))
 
 PACKAGENAME = 'YOURPACKAGE'
 DISTNAME = 'YOURPACKAGE' #'YOUR DISTRIBTUION NAME (I.E. PIP INSTALL DISTNAME)' Generally good to be same as packagename
-AUTHOR = 'YOURNAME'
+AUTHOR = 'YOUR NAME'
 AUTHOR_EMAIL = 'YOUREMAIL'
 LICENSE = 'GPLv3+'
 DESCRIPTION = 'MY DESCRIPTION'
@@ -138,14 +138,15 @@ setup(name=DISTNAME,
       install_requires=install_requires,
       tests_require=tests_require,
       extras_require=extras_require,
-      python_requires='!=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, <4',
+      python_requires='>3.5, <4',
       use_2to3=True,
       classifiers=[
           'Development Status :: 4 - Beta',
           'Programming Language :: Python',
-          'Programming Language :: Python :: 3.5',
           'Programming Language :: Python :: 3.6',
           'Programming Language :: Python :: 3.7',
+          'Programming Language :: Python :: 3.8',
+          'Programming Language :: Python :: 3.9',
           'Intended Audience :: Science/Research',
           'Intended Audience :: End Users/Desktop',
           'Intended Audience :: Science/Research',
