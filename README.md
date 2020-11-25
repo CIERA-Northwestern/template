@@ -38,11 +38,9 @@ git push
 ```
 
 ## Activating the Continous Integration
-In order for the code coverage and continuous integration to work you must allow 3rd party access Travis CI and coveralls/codecov to access your Github repo. To do this, you must sign into the services (you can justuse your GitHub account to do so).
+In order for the code coverage and continuous integration to work you must allow 3rd party access codecov to access your Github repo. To do this, you must sign into the services (you can justuse your GitHub account to do so).
 
-[Travis CI](https://travis-ci.com/)
 [Code coverage](https://codecov.io/)
-[Coveralls](https://coveralls.io/repos)
 
 # Examples of some repositories with these files
 

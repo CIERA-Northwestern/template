@@ -1,7 +1,7 @@
 {% set data = load_setup_py_data() %}
 
 package:
-  name: YOURPACKAGE
+  name: ciera-template
   version: {{ data['version'] }}
 
 source:
@@ -22,7 +22,7 @@ requirements:
 
 test:
   imports:
-    - YOURPACKAGE
+    - ciera-template
 
 about:
   home: {{ data['url'] }}
