@@ -71,7 +71,7 @@ setup_requires = [
 # are all used in the example below for specifying specific version of the
 # packages that are compatbile with your software.
 install_requires = [
-    'numpy >= 1.16',
+    'numpy >= 1.12.0',
     #'pyblast @ https://github.com/CIERA-Northwestern/pyblast/tarball/master',
     #'scipy >= 0.12.1',
     #'matplotlib >= 1.2.0, != 2.1.0, != 2.1.1',
