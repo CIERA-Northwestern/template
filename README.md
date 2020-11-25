@@ -5,6 +5,9 @@ This repository stands to house a skeleton of what all repos (especially those c
 [![codecov](https://codecov.io/gh/CIERA-Northwestern/template/branch/master/graph/badge.svg?token=jAAQvHfHat)](https://codecov.io/gh/CIERA-Northwestern/template)
 ![Unit Test YOURPACKAGE](https://github.com/CIERA-Northwestern/template/workflows/Unit%20Test%20YOURPACKAGE/badge.svg)
 
+# Documentation URL
+[Documentation](https://ciera-northwestern.github.io/template/)
+
 # Using this template
 
 ## First steps
