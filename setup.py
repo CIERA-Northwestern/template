@@ -24,6 +24,7 @@ from __future__ import print_function
 
 import glob
 import os.path
+import sys
 
 from setuptools import (setup, find_packages)
 
@@ -62,10 +63,13 @@ with open('README.md', 'rb') as f:
 
 # -- dependencies -------------------------------------------------------------
 
-setup_requires = [
-    'setuptools',
-    'pytest-runner',
-]
+if 'test' in sys.argv:
+    setup_requires = [
+        'setuptools',
+        'pytest-runner',
+    ]
+else:
+    setup_requires = []
 
 # These pretty common requirement are commented out. Various syntax types
 # are all used in the example below for specifying specific version of the
@@ -82,7 +86,8 @@ install_requires = [
 ]
 
 tests_require = [
-    'pytest'
+    "pytest >= 3.3.0",
+    "pytest-cov >= 2.4.0",
 ]
 
 # For documenation
