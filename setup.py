@@ -112,7 +112,7 @@ packagenames = find_packages()
 scripts = glob.glob(os.path.join('bin', '*'))
 
 PACKAGENAME = 'YOURPACKAGE'
-DISTNAME = 'YOURPACKAGE' #'YOUR DISTRIBTUION NAME (I.E. PIP INSTALL DISTNAME)' Generally good to be same as packagename
+DISTNAME = 'ciera-template' #'YOUR DISTRIBTUION NAME (I.E. PIP INSTALL DISTNAME)' Generally good to be same as packagename
 AUTHOR = 'YOUR NAME'
 AUTHOR_EMAIL = 'YOUREMAIL'
 LICENSE = 'GPLv3+'
