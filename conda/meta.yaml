@@ -22,7 +22,7 @@ requirements:
 
 test:
   imports:
-    - ciera-template
+    - YOURPACKAGE
 
 about:
   home: {{ data['url'] }}
