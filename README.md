@@ -2,7 +2,7 @@
 This repository stands to house a skeleton of what all repos (especially those containing python code), can look like.
 
 # badges
-[![codecov](https://codecov.io/gh/CIERA-Northwestern/template/branch/master/graph/badge.svg?token=jAAQvHfHat)](https://codecov.io/gh/CIERA-Northwestern/template)
+[![codecov](https://codecov.io/gh/CIERA-Northwestern/template/branch/main/graph/badge.svg?token=jAAQvHfHat)](https://codecov.io/gh/CIERA-Northwestern/template)
 ![Unit Test YOURPACKAGE](https://github.com/CIERA-Northwestern/template/workflows/Unit%20Test%20YOURPACKAGE/badge.svg)
 
 # Documentation URL
