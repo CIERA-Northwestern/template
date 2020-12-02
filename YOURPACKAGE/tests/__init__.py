@@ -16,12 +16,3 @@
 #
 # You should have received a copy of the GNU General Public License
 # along with YOURPACKAGE.  If not, see <http://www.gnu.org/licenses/>
-
-"""YOURPACKAGE
-"""
-
-from ._version import get_versions
-__version__ = get_versions()['version']
-__author__ = 'YOUR NAME <YOUREMAIL>'
-__credits__ = ['Scott Coughlin <scottcoughlin2014@u.northwestern.edu>']
-del get_versions
