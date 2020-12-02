@@ -1,7 +1,8 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright (C) YOUR NAME (2021)
 #
-# This file is part of YOURPACKAGE.
+# This file is part of YOURPACKAGE
 #
 # YOURPACKAGE is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -14,13 +15,13 @@
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with YOURPACKAGE.  If not, see <http://www.gnu.org/licenses/>.
+# along with YOURPACKAGE.  If not, see <http://www.gnu.org/licenses/>
 
-"""Unit test for YOURPACKAGE.YOURMODULE classes
+"""YOURPACKAGE
 """
 
-from ..mymodule.mymodule import MyModule
-
-class TestMyModule(object):
-    def test_myclass(self):
-        assert 1 == MyModule().return_one()
+from ._version import get_versions
+__version__ = get_versions()['version']
+__author__ = 'YOUR NAME <YOUREMAIL>'
+__credits__ = ['Scott Coughlin <scottcoughlin2014@u.northwestern.edu>']
+del get_versions
