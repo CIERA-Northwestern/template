@@ -1,0 +1,4 @@
+.. automodule:: YOURPACKAGE.tests.test_mymodule
+   :members:
+   :undoc-members:
+   :show-inheritance:

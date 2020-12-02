@@ -1,0 +1,18 @@
+YOURPACKAGE.tests package
+=========================
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   YOURPACKAGE.tests.test_mymodule
+
+Module contents
+---------------
+
+.. automodule:: YOURPACKAGE.tests
+   :members:
+   :undoc-members:
+   :show-inheritance:
