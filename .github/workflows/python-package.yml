@@ -45,7 +45,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics --exclude docs,versioneer.py,YOURPACKAGE/_version.py,YOURPACKAGE/tests,YOURPACKAGE/*/__init__.py
     - name: Test with pytest
       run: |
-        pytest --cov=./ --cov-report=xml
+        pytest --cov=./YOURPACKAGE --cov-report=xml
         cd docs && make html; cd ../
 
     - name: Upload coverage to Codecov
