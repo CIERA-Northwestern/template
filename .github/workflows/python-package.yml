@@ -35,7 +35,7 @@ jobs:
     - name: Install dependencies
       run: |
         # sudo apt-get install gfortran swig libhdf5-serial-dev libmpich-dev
-        python -m pip install coverage cpp-coveralls flake8 pytest
+        python -m pip install coverage cpp-coveralls flake8 pytest pytest-cov
         python -m pip install .[doc]
     - name: Lint with flake8
       run: |
@@ -45,7 +45,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics --exclude docs,versioneer.py,YOURPACKAGE/_version.py,YOURPACKAGE/tests,YOURPACKAGE/*/__init__.py
     - name: Test with pytest
       run: |
-        coverage run ./setup.py test
+        pytest --cov=./ --cov-report=xml
         cd docs && make html; cd ../
 
     - name: Upload coverage to Codecov
