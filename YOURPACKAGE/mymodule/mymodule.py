@@ -24,8 +24,8 @@ import numpy
 
 __author__ = 'YOUR NAME <YOUREMAIL@gmail.com>'
 __credits__ = 'Scott Coughlin <scottcoughlin2014@u.northwestern.edu>'
-__all__ = ['MyModule']
+__all__ = ['MyClass']
 
-class MyModule(object):
+class MyClass(object):
     def return_one(self):
         return 1
