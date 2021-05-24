@@ -1,0 +1,4 @@
+.. automodule:: YOURPACKAGE.mymodule.mymodule
+   :members:
+   :undoc-members:
+   :show-inheritance:
